@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-title {
+    text-align: center;
+    color: orange;
+}
+
+nav {
+    background-color: orange;
+    padding: 14px;
+    margin: 25px 0;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.hero {
+    background-image: url(beach.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    max-width: 1200px;
+    height: 350px;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    margin: 30px auto;
+    color: white;
+    font-weight: bold;
+    font-size: clamp(1rem, 2.5vw, 1.6rem);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 13px;
+    background-color: orange;
+    color: blue;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: yellow;
+}
+
+.form-group {
+    max-width: 1200px;
+    display: block;
+    margin: 20px auto;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 3px;
+    border-radius: 6px;
+    background-color: orange;
+    color: blue;
+    font-weight: bold;
+    border: none;
+}
+
+input[type="radio"]{
+    width: auto;
+    margin-right: 5px;
+}
+
+.submit-btn {
+    padding: 12px 13px;
+    background-color: orange;
+    color: blue;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin: 12px auto;
+    display: block;
+}
+
+.submit-btn:hover {
+    background-color: yellow;
+}
